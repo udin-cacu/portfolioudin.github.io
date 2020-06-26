@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css" media="screen">
+
+    <script type="text/javascript">
+      
+    </script>
+
+
+    <script >
+         function inputdata(){
+       var n=document.forms['datapribadi']['nama'].value;
+       var e=document.forms['datapribadi']['email'].value;
+       var p=document.forms['datapribadi']['kategori'].value; 
+       var a=document.forms['datapribadi']['pesan'].value;       
+                                               
+       var tabel = document.getElementById("databel");
+       var baris = tabel.insertRow(1);
+       var kol1 = baris.insertCell(0);
+       var kol2 = baris.insertCell(1);
+       var kol3 = baris.insertCell(2);
+       var kol4 = baris.insertCell(3);
+               
+       kol1.innerHTML = n;
+       kol2.innerHTML = e;
+       kol3.innerHTML = p;
+       kol4.innerHTML = a;
+
+      }
+      </script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#home" class="navbar-brand page-scroll"><i class="glyphicon glyphicon-user"></i> Syamsudin</a>
+        </div>
+        <div class="container">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+            <li><a href="#skill" class="page-scroll">Skill</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir Navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron text-center">
+      <br><br><br>
+      <img src="img/Foto udin.JPG" class="img-circle">
+      <h1>Syamsudin</h1>
+      <p>Programmer IOT | Web Developer</p>
+    </div>
+    <!-- akhir jumbotron -->
+
+
+    <!-- About -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>About</h2>
+              <hr>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-5 col-sm-offset-1 text-justify">
+              <h4 class="text-center"><p class="pKiri">Study</p></h4>
+              <p class="pKiri">Hello, My Name is Syamsudin, I am from Karawang, I am late and in the city of Karawang. I was born October 1, 1989. I am the sixth of seven siblings. I am a vocational high school in SMK Negeri one Karawang graduated in 2009. My field of science is in industrial electronics engineering. I went to one of the first Islamic universities in Banten. I studied at the Islamic University of Syekh Yusuf in Tangerang in 2015 and graduated in 2019. The field of science I took was Informatics Engineering.</p>
+              <p class="pKiri">My expertise in the field of informatics is Web Programming and IoT Programming. for web programming, I master several programming languages, namely HTML, Php, C or C ++, Java.net, Javascript, CSS, and mastering the framework (Boostrap, Codeigniter, and Laravel)</p>
+              <p class="pKiri">Web projects I have ever made, namely full html web library, web marketing with Codeigniter frame work, web Booking Company internal meeting rooms, and web laundry with frame work frames, etc.</p>
+              <p class="pKiri">For IoT Programming, I mastered Programming for smart homes with Arduino in how to assemble or program them. for the project itself, it has made Robot line follower and Robbot with Bluethoot, making a mini CNC plotter, motorbike safety with sms, etc.</p> 
+            </div>
+            <div class="col-sm-5 text-justify">
+              <h4 class="text-center"><p class="pKanan">Work Experience</p></h4>
+              <p class="pKanan">For work experience I've worked in companies in bandung in the field of manufacturing machine tools, such as jigs, molding, and others. I worked as a fress milling, lathe, and CNC grinding machine operator from 2010 - 2011 at PT Trindo Pratama Engineering.
+              in 2011 - 2012 I worked in an automotive company in Karawang as an assembling operator at PT Aisin Takaoka Indonesia (ATI).</p>
+              <p class="pKanan">In 2015 - 2019 I worked at the fm3 transit hotel in tangerang as a helper and cook helper. while working here I also took my undergraduate studies at UNIS.
+              in 2019 - 2020 I worked at PT Mulia Rana Frozindo as HRGA and IT Staff. here I begin to understand how to set up an internet network and repair a computer or laptop. here I am making an internal Web project for booking a meeting room with Codeigniter.</p>
+             <p class="pKanan">And Now, I'am a Tangerang-based freelance. if i'am not freelancing at some of Tangerang's Programmer Digital WEB and IOT Programmer.</p> 
+              <p class="pKanan">I'am working remotly on projects for clients all over the local area in Tangerang. Not only that, I can also project the project to the location where the project will be created and used.</p>
+            </div>
+          </div>
+        </div><br>
+      </section>
+    <!-- akhir About -->
+
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Portfolio</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="img/portfolio/1.png" class="thumbnail perbesar">
+              <img src="img/portfolio/1.jpg">
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="img/portfolio/2.png" class="thumbnail perbersar">
+              <img src="img/portfolio/2.jpg">
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="img/portfolio/3.png" class="thumbnail perbesar">
+              <img src="img/portfolio/3.jpg">
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="img/portfolio/4.png" class="thumbnail perbesar">
+              <img src="img/portfolio/4.jpg">
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="img/portfolio/5.jpg" class="thumbnail perbesar">
+              <img src="img/portfolio/5.jpg">
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="img/portfolio/6.png" class="thumbnail perbesar">
+              <img src="img/portfolio/6.jpg">
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail perbesar">
+              <video  width="100%" height="250px" controls autoplay>
+                <source src="video/1.mp4" type="video/mp4">
+              </video>
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail perbesar">
+              <video  width="100%" height="250px" controls autoplay>
+                <source src="video/2.mp4" type="video/mp4">
+              </video>
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail perbesar">
+              <video  width="100%" height="250px" controls autoplay>
+                <source src="video/3.mp4" type="video/mp4">
+              </video>
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail perbesar">
+              <video  width="100%" height="250px" controls autoplay>
+                <source src="video/4.mp4" type="video/mp4">
+              </video>
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail perbesar">
+              <video  width="100%" height="250px" controls autoplay>
+                <source src="video/5.mp4" type="video/mp4">
+              </video>
+            </a> 
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail perbesar">
+              <video  width="100%" height="250px" controls autoplay>
+                <source src="video/6.mp4" type="video/mp4">
+              </video>
+            </a> 
+          </div>
+        </div>
+      </div><br>
+    </section>
+    <!-- akhir portfolio -->
+
+   
+
+
+     <!-- skill -->  
+
+
+
+    <section class="skill" id="skill">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Skill</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <h4>HTML</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                90%
+              </div>
+            </div>
+            <h4>PHP</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                80%
+              </div>
+            </div>
+            <h4>CSS</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                75%
+              </div>
+            </div>
+            <h4>C / C++</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                65%
+              </div>
+            </div>
+            <h4>JavaScript</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                65%
+              </div>
+            </div>
+            <h4>Frame Work Bootstrap</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                75%
+              </div>
+            </div>
+            <h4>Frame Work Codeigniter</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                80%
+              </div>
+            </div>
+            <h4>Frame Work Laravel</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                90%
+              </div>
+            </div>
+            <h4>Programming IOT / Arduino</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                90%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- akhir skill -->
+
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="col-sm-12 text-center">
+          <h2>Contact</h2>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-sm-offset-1">
+            <div class="card text-white bg-primary ">
+              <div class="card-body text-center mb-6">
+                <h2 class="card-title"><br>Contact Use</h2>
+                <p class="card-text">Location In My House</p><br>
+              </div>
+            </div><br>
+            <ul class="list-group">
+              <li class="list-group-item"><h3>Location</h3></li>
+              <li class="list-group-item">My House</li>
+              <li class="list-group-item">Jl. Cilamaya No.01, Karawang </li>
+              <li class="list-group-item">West Java Indonesia</li>
+            </ul>
+          </div>
+        <div class="col-sm-6 ">
+            <form name="datapribadi">
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukan Nama">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Masukan Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Kategori</label>
+              <select class="form-control" name="kategori" id="exampleFormControlSelect1">
+                <option>--Pilih Kategori--</option>
+                <option>Web Design</option>
+                <option>Web Development</option>
+                <option>Program IOT</option>
+                <option>Program Arduino</option>
+              </select>
+              </div>
+              <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea class="form-control" name="pesan" rows="10" placeholder="Masukan Pesan"></textarea>
+              </div>
+              <button type="button" onClick='inputdata()' class="btn btn-primary">Kirim Pesan</button>
+              <button type="reset" class="btn btn-warning">Batal</button><br>
+              
+            </form>
+          </div>
+        </div>
+      </div><br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">            
+              <div class="row"><br>
+                <div class="col-sm-10 col-sm-offset-1">
+                      <h2 class="text-center">Forum Diskusi</h2>
+                      <hr>
+                    <table class="table" id="databel" border="0">
+                      <thead>
+                        <tr>
+                          <th scope="col">Nama</th>
+                          <th scope="col">Email</th>
+                          <th scope="col">Kategori</th>
+                          <th scope="col">Pesan</th>
+                          <th scope="col">Aksi</th>
+                        </tr>
+                      </thead>
+                    </table>  
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir contact -->
+
+    <!--Footer-->
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <p>&copy; copyright 2020 | built with <i class="glyphicon glyphicon-heart"></i> by. <a href="http://instagram.com/cacudin">Syamsudin</a>.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="https://www.youtube.com/channel/UCoo6aC08EtwLdya4cjsJc0w?view_as=subscriber" class="btn btn-danger"><i class="glyphicon glyphicon-play"></i> Subscribe to Youtube</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--akhir Footer-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script  src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+  </body>
+</html>
