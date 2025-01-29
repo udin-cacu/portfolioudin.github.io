@@ -87,6 +87,12 @@ section {
 	min-height: 750px;
 }
 
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+}
+
 footer {
 	position: absolute;
 	bottom: 0;
